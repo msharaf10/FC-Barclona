@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+}
+    /*  Framwork    */
+.ul-li {
+    list-style: none;
+}
+.ul-li li {
+    display: inline-block;
+}
+.upper {
+    text-transform: uppercase;
+}
+    /*  End Framwork    */
+/*  Header Style [ Logo + items ]   */
+.top-header .container {
+    background: url('../images/514517.jpg') no-repeat;
+}
+.grid-container {
+    background: #0f2a56;
+    height: 35px;
+    border-bottom: 3px solid #9c1737;
+}
+.grid-list-left {
+    margin-top: 5px;
+    float: left;
+}
+.grid-list-left .grid-list-item-lt li:after {
+    content: "|";
+    content: "|";
+    color: #fff;
+    font: 20px Arial;
+    padding-left: 5px;
+}
+.grid-list-left .grid-list-item-lt li:last-child:after {
+    content: "";
+}
+.grid-list-left .grid-list-item-lt li a {
+    color: #fff;
+    padding: 5px;
+    font: bold 12px Arial;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.grid-list-left .grid-list-item-lt li a:hover {
+    background: #071327;
+}
+..grid-list-item-lt a {
+    text-decoration: line-through;
+    color: #fff;
+}
+.grid-list-right {
+    float: right;
+}
+.grid-list-items-rt1 {
+    margin: 5px 7px 0px 0px;
+}
+.grid-list-items-rt1 li {
+    background: #071327;
+    color: white;
+    box-sizing: border-box;
+    font: 15px Arial;
+    padding: 4px 7px;
+    border-radius: 5px;
+}
+.grid-list-items-rt1 li a {
+    color: white;
+}
+.srch-head-area {
+    border: 1px solid #0f2a56;
+    border-radius: 5px;
+    padding: 3px 8px;
+    margin-right: 5px;
+}
+.logo .logo-item {
+    text-align: center;
+    padding-top: 20px;
+}
+.logo .logo-item img {
+    width: 20em;
+}
+.items .items-list {
+    background: #9c1737;
+    height: 2.5em;
+    margin-top: 25px;
+    text-align: center;
+    padding: 5px;
+}
+.items .items-list li {
+    margin-top: 10px;
+}
+.items .items-list li:after {
+    content: "|";
+    color: #fff;
+    font: 20px Arial;
+    padding: 7px;
+}
+.items .items-list li:last-child:after {
+    content: "";
+}
+.items .items-list li a {
+    text-decoration: none;
+    color: #fff;
+    font: bold 17px Arial;
+    transition: 0.3s;
+    padding: 7px;
+}
+.items .items-list li a:hover {
+    background: #2e0006;
+}
+/*  End Header [ Logo + Items ] */
+
+.slide-bar-news {
+    background: #232834;
+}
+.slide-bar-news .container {
+    width: 90%;
+    height: 30em;
+    background: #061637;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.booking-tickets {
+    text-align: center;
+}
+.booking-tickets button {
+    border: none;
+    margin: 0px 10px;
+    padding: 10px 25px;
+    font: bold 20px Arial;
+    background: #d8b013;
+    transition-duration: 0.3s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.booking-tickets .viwe-more {
+    background: #c71f1f;
+}
+.booking-tickets .viwe-more:hover {
+    background: #df3030;
+}
+.booking-tickets button:hover {
+    background: #edc62c;
+    box-shadow: 0px 0px 8px #fff;
+}
+.title-news-body {
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    font: bold 20px Arial;
+    padding: 15px;
+    margin: 20px;
+}
+.news-body .news-div {
+    float: left;
+    height: 13em;
+    width: 22em;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.news-body .leo-messi {
+    background: url('../images/news/29644910.jpg') no-repeat;
+    background-size: cover;
+}
+.news-body .luis-enrique {
+    background: url('../images/news/29508058.jpg') no-repeat;
+    background-size: cover;
+}
+.news-body .sam-omtiti {
+    background: url('../images/news/29604536.jpg') no-repeat;
+    background-size: cover;
+}
+.news-title {
+    background: rgba(0,0,0,0.6);
+    padding: 10px 5px;
+    text-align: center;
+    color: white;
+    font: bold 15px Arial;
+    margin-top: 170px;
+}
+.news-title a {
+    text-decoration: none;
+    color: #fff;
+}
+    /*      Football Squad 2016     */
+.football-players {
+    background: #232834;
+}
+.football-players .container {
+    background: #061637;
+    width: 90%;
+    margin: 0px auto;
+    height: 30em;
+    background: #061637;
+}
+.football-players .container h2 {
+    background: rgba(0,0,0,0.4);
+    padding: 12px;
+    margin: 0px 20px;
+    font: bold 27px Arial;
+    color: #fff;
+}
+.football-players .container .squad2016 .player-div {
+    float: left;
+    margin: 18px;
+    overflow: hidden;
+}
+.player-div p {
+    margin-top: 20px;
+    padding: 10px;
+    background: #871231;
+}
+.player-div p:hover {
+    background: #0d306e;
+}
+.player-div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+.player-photo {
+    border: 3px solid #fff;
+    border-radius: 150px;
+    height: 200px;
+    width: 200px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.player-photo:hover {
+    box-shadow: 0px 0px 8px #fff;
+}
+.pique3-photo {
+    background: url('../images/players/pique.jpg') no-repeat;
+    background-size: cover;
+}
+.messi10-photo {
+    background: url('../images/players/messi.jpg') no-repeat;
+    background-size: cover;
+}
+.iniesta8-photo {
+    background: url('../images/players/iniesta.jpg') no-repeat;
+    background-size: cover;
+}
+.neymar11-photo {
+    background: url('../images/players/neymar.jpg') no-repeat;
+    background-size: cover;
+}
+.suarez9-photo {
+    background: url('../images/players/suarez.jpg') no-repeat;
+    background-size: cover;
+}
+.squad2016 .view-squad {
+    font-size: 18px;
+    margin: 0px 0px 0px 18px;
+}
+.squad2016 .view-squad a {
+    padding: 15px 20px 15px 20px;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    transition-duration: 0.3s;
+}
+.squad2016 i {
+    font-weight: bolder;
+    margin-left: 10em; 
+}
+.squad2016 .view-squad a:hover {
+    background: rgba(250,250,250,0.2);
+}
+    /*      End Football Squad      */
+    /*      Footer      */
+.footer-fcb {
+    height: 200px;
+    background: #232834;
+}
+.footer-fcb .container {
+    margin: 0px auto;
+    width: 90%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+.social-list {
+    text-align: center;
+    margin-right: 50px;
+}
+.social-list li {
+    padding: 10px;
+    margin: 10px;
+    
+}
+.social-list li a {
+    color: #fff;
+    font-size: 30px;
+    transition-duration: 0.3s;
+    position: absolute;
+}
+.social-list li a i {
+    transition-duration: 0.3s;
+}
+.social-list li a .fa-facebook-official:hover {
+    color: #2056d5;
+    background: #fff;
+}
+.social-list li a .fa-twitter-square:hover {
+    color: #35b5e3;
+    background: #fff;
+}
+.social-list li a .fa-instagram:hover {
+    color: #7d3a03;
+    background: #fff;
+}
+.social-list li a .fa-youtube:hover {
+    color: #a30000;
+    background: #fff;
+}
+.details .copy-right {
+    color: #DDD;
+    text-align: center;
+    margin-top: 100px;
+}
+.copy-right-ar {
+    font-weight: bold;
+    font-family: Arial;
+}
+.designer {
+    color: darkorange;
+    font-weight: bold;
+}
